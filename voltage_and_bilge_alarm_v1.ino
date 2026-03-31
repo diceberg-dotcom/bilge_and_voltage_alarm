@@ -7,7 +7,7 @@
 const char* WIFI_SSID = "wifinetwork";
 const char* WIFI_PASS = "wifipassword";
 
-// Textbelt
+// Textbelt: Use Textbelt or some other SMS tool. 
 const char* TEXTBELT_KEY = "textbeltAPIKey";
 
 const char* ALERT_TO_1 = "cellphone1"; // David
