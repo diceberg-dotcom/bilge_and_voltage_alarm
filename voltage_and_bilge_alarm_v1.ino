@@ -4,14 +4,14 @@
 #include <Wire.h>
 #include <Adafruit_INA219.h>
 
-const char* WIFI_SSID = "BergHome";
-const char* WIFI_PASS = "skipperdog";
+const char* WIFI_SSID = "wifinetwork";
+const char* WIFI_PASS = "wifipassword";
 
 // Textbelt
-const char* TEXTBELT_KEY = "4f51282a53a858e6600f182132255eb847e297de6BDpKCkgMtNea6GDc1TY3du79";
+const char* TEXTBELT_KEY = "textbeltAPIKey";
 
-const char* ALERT_TO_1 = "12064629834"; // David
-// const char* ALERT_TO_2 = "12064279090"; // Seth
+const char* ALERT_TO_1 = "cellphone1"; // David
+// const char* ALERT_TO_2 = "cellphone2"; // Seth
 
 // Hardware - Adafruit HUZZAH Feather ESP8266
 const int FLOAT_PIN = 12;
